@@ -153,4 +153,73 @@ const charactersArray = ['g', 'n', 'u', 'z', 'd']
 
 const letterToNumber = []
 
+//devo stare attenta a length //non lenght 
+for (i = 0; i < charactersArray.length; i ++) {
+  switch (charactersArray[i]){
+    case 'a':
+      letterToNumber.push(1);
+      break;
+    case 'b':
+      letterToNumber.push(2);
+      break;
+    case 'c':
+      letterToNumber.push(3);
+      break;
+    case 'd':
+      letterToNumber.push(4);
+      break;
+    case 'e':
+      letterToNumber.push(5);
+      break;
+    case 'f':
+      letterToNumber.push(6);
+      break;
+    case 'g':
+      letterToNumber.push(7);
+      break;
+    case 'h':
+      letterToNumber.push(8);
+      break;
+    case 'i':
+      letterToNumber.push(9);
+      break;
+    case 'l':
+      letterToNumber.push(10);
+      break;
+    case 'm':
+      letterToNumber.push(11);
+      break;
+    case 'n':
+      letterToNumber.push(12);
+      break;
+    case 'o':
+      letterToNumber.push(13);
+      break;
+    case 'p':
+      letterToNumber.push(14);
+      break;
+    case 'q':
+      letterToNumber.push(15);
+      break;
+    case 'r':
+      letterToNumber.push(16);
+      break;
+    case 's':
+      letterToNumber.push(17);
+      break;
+    case 't':
+      letterToNumber.push(18);
+      break;
+    case 'u':
+      letterToNumber.push(19);
+      break;
+    case 'v':
+      letterToNumber.push(20);
+      break;
+    case 'z':
+      letterToNumber.push(21);
+      break;
+  }
+}
+
 console.log(letterToNumber)
