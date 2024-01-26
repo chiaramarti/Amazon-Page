@@ -151,9 +151,6 @@ do {
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
 
-charactersArray.forEach(letterToNumber)
+const letterToNumber = []
 
-function letterToNumber(x){
-  
-}
-console.log(charactersArray)
+console.log(letterToNumber)
